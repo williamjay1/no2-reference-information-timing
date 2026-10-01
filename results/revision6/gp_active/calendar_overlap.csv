@@ -1,0 +1,13 @@
+site,comparison,paid_hours,shared_paid_hours,paid_hour_jaccard,enhanced_starts,comparator_starts,enhanced_starts_within_12h,comparator_starts_within_12h,enhanced_to_nearest_start_median_hours,enhanced_start_rule,comparator_start_rule
+Manchester,gp_original,807,189,0.13263157894736843,68,64,0.39705882352941174,0.40625,24.0,stored planned starts,stored planned starts
+Manchester,gp_ar_fixed,807,92,0.06044678055190539,68,59,0.17647058823529413,0.2033898305084746,37.0,stored planned starts,stored planned starts
+Manchester,gp_ar_variable,807,60,0.03861003861003861,68,56,0.16176470588235295,0.19642857142857142,45.0,stored planned starts,stored planned starts
+Manchester,gp_periodic,807,105,0.06958250497017893,68,68,0.27941176470588236,0.27941176470588236,36.0,stored planned starts,starts of contiguous paid runs
+London,gp_original,450,150,0.2,36,38,0.5277777777777778,0.5,12.0,stored planned starts,stored planned starts
+London,gp_ar_fixed,450,59,0.07015457788347206,36,35,0.2222222222222222,0.22857142857142856,50.0,stored planned starts,stored planned starts
+London,gp_ar_variable,450,36,0.041666666666666664,36,37,0.1111111111111111,0.13513513513513514,59.0,stored planned starts,stored planned starts
+London,gp_periodic,450,54,0.06382978723404255,36,40,0.2777777777777778,0.25,42.0,stored planned starts,starts of contiguous paid runs
+York,gp_original,912,168,0.10144927536231885,74,74,0.3918918918918919,0.35135135135135137,24.0,stored planned starts,stored planned starts
+York,gp_ar_fixed,912,179,0.1088145896656535,74,75,0.25675675675675674,0.26666666666666666,35.0,stored planned starts,stored planned starts
+York,gp_ar_variable,912,43,0.024143739472206625,74,76,0.14864864864864866,0.11842105263157894,43.0,stored planned starts,stored planned starts
+York,gp_periodic,912,90,0.05190311418685121,74,76,0.22972972972972974,0.2236842105263158,36.0,stored planned starts,starts of contiguous paid runs

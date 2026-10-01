@@ -1,0 +1,65 @@
+{
+  "stage": "retrospective exploratory sixth revision; earlier later-period results already known",
+  "horizons": [
+    168,
+    192,
+    240,
+    336
+  ],
+  "thresholds": [
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "selection": "minimum pre-2021 Manchester common-support macro physical-instrument RMSE; ties horizon then threshold",
+  "selection_uncertainty": "1000 paired circular seven-day calendar-block resamples within early Manchester quarters, conditional on candidate streams; not retuned-policy or new-site uncertainty",
+  "selection_seed": 20261006,
+  "selection_delay": 72,
+  "selection_shared": true,
+  "retained_parameters": {
+    "horizon": 240,
+    "threshold": 1.25
+  },
+  "original_parameters": {
+    "horizon": 168,
+    "threshold": 1.25
+  },
+  "delays": [
+    0,
+    24,
+    72,
+    168
+  ],
+  "shared": [
+    true,
+    false
+  ],
+  "policies": [
+    "periodic",
+    "original",
+    "aware_unretuned",
+    "aware_retained",
+    "aware_expanded"
+  ],
+  "score_support": "fixed per-deployment ready+168h for every delivery and policy; full masks also archived",
+  "contract": {
+    "budget": 48,
+    "block": 672,
+    "max_starts": 4,
+    "window_length": 12
+  },
+  "calibrator": {
+    "q_scale": 0.001,
+    "use_ar": true,
+    "weather": true,
+    "ar_share": 0.8,
+    "guard_width": 8.0
+  },
+  "no_evaluation_selection": true,
+  "source_sha256": {
+    "revision_access_controller.py": "551cca4302db25fcfe57a72ed6ce0bedf8a8be277575debe9c69b44cb842c327",
+    "revision4_delay_controller.py": "4c33ed692affdee650e38c5c42bd0852a83f4e4f02038822a9486f115a66b78c",
+    "site_data.py": "d24bd0cb8d80e8751e5cdeed18ed494fe8d02f4772d5ddd994d6ca94a22be904"
+  }
+}

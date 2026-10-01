@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-09-30T03:16:52.770402+00:00",
+  "file": "scripts/run_main.py",
+  "sha256": "d3c9f2f8cd4d262a5cf4d4879cab61367f41e05a6ecd99f4ea8b9358d0423015",
+  "reason": "Serialization only; see hash-checked core arrays in serialization_repair.json; no method/hyperparameter amendments."
+}

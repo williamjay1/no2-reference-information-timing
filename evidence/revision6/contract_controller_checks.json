@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "kind": "synthetic implementation verification, not empirical sensor evidence",
+  "runner_sha256": "c5c74d302daeaea426941d1bea93c55b3250ea81146b921f1d8630a183db5da4",
+  "hand_computed": {
+    "paid_events": [
+      0,
+      3
+    ],
+    "commissioning_offsets": [
+      1,
+      2
+    ],
+    "length": 2,
+    "instant": 0.5833333333333333,
+    "instant_expected": 0.5833333333333334,
+    "old_instant": 0.6388888888888888,
+    "delay2": 0.43749999999999994,
+    "delay2_expected": 0.4375,
+    "old_delay2": 0.4791666666666666
+  },
+  "zero_delay_contract_consistency": true,
+  "shared_frozen_array_parity": [
+    {
+      "delay": 0,
+      "delay_aware": true,
+      "shared": true,
+      "bitwise_array_parity": true
+    },
+    {
+      "delay": 0,
+      "delay_aware": false,
+      "shared": true,
+      "bitwise_array_parity": true
+    },
+    {
+      "delay": 24,
+      "delay_aware": true,
+      "shared": true,
+      "bitwise_array_parity": true
+    },
+    {
+      "delay": 24,
+      "delay_aware": false,
+      "shared": true,
+      "bitwise_array_parity": true
+    },
+    {
+      "delay": 72,
+      "delay_aware": true,
+      "shared": true,
+      "bitwise_array_parity": true
+    },
+    {
+      "delay": 72,
+      "delay_aware": false,
+      "shared": true,
+      "bitwise_array_parity": true
+    },
+    {
+      "delay": 168,
+      "delay_aware": true,
+      "shared": true,
+      "bitwise_array_parity": true
+    },
+    {
+      "delay": 168,
+      "delay_aware": false,
+      "shared": true,
+      "bitwise_array_parity": true
+    }
+  ],
+  "nonshared_hidden_label_invariance": true,
+  "nonshared_release_chronology": true,
+  "exact_attempted_quotas_and_start_caps": true
+}

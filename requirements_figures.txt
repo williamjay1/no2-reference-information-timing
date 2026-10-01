@@ -1,0 +1,4 @@
+-r requirements_reproduction.txt
+matplotlib==3.11.1
+pillow==12.3.0
+pymupdf==1.28.2

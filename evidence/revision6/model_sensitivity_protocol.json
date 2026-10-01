@@ -1,0 +1,20 @@
+{
+  "stage": "exploratory prespecified sixth-revision sensitivity; evaluation records previously seen",
+  "variants": [
+    "ar1",
+    "ar2",
+    "drift_low",
+    "drift_high",
+    "drift_pulsed"
+  ],
+  "delays": [
+    0,
+    72
+  ],
+  "support": "common ready+168",
+  "calendars": "frozen AR1 acquisition; no alternative-model parameter search",
+  "ar2": "two-lag ridge fit on commissioning residuals; roots projected within .95; marginal residual variance preserved at .8 commissioning variance",
+  "drift_low_high": "coefficient process variance multiplied by .1 or 10; residual unchanged",
+  "drift_pulsed": "zero coefficient process variance between 168h boundaries and 168x at the boundary; same cumulative variance per complete block; residual unchanged",
+  "claims": "robustness of correction and transferred-calendar contrasts; not optimized AR2 acquisition or actual physical change points"
+}

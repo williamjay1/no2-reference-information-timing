@@ -1,0 +1,29 @@
+{
+  "stage": "post-review supplemental analysis, after original held-out inspection",
+  "date": "2026-10-01",
+  "delay_hours": [
+    0,
+    24,
+    72,
+    168
+  ],
+  "budget": 48,
+  "policies": [
+    "periodic",
+    "risk_fixed",
+    "risk"
+  ],
+  "latency_rule": "The requested observation at u arrives after prediction/action at u+d. Old observations update the state at u; the updated state is propagated forward. Own initial model becomes usable at original ready+d. Delay contrasts use a common score mask after original ready+168.",
+  "planning_rule": "Original zero-latency covariance utility and frozen horizons/scales are retained as an unretuned decision heuristic; actual acquisition decisions use only states conditioned on labels that have arrived.",
+  "setup_rule": "Replay with each instrument fitted on its own initialization but not updated from other instruments later setup; same charged setup calendar and additional-hour feasibility. Adaptive covariance design no longer treats later setup as shared update.",
+  "correlation_check": "Matched white-residual counterpart keeps original inflated coefficient covariance, stationary residual variance, measurement variance and coefficient drift. Residual F=0, Q=stationary residual variance. Additional white drift grid [.0001,.001,.01] chosen only on Manchester shared pre2021 periodic B48 phase0.",
+  "memory_baselines": [
+    "initial calibration plus latest residual decaying with initialization rho",
+    "no current sensor input: fixed initial daily/weekly harmonic mean plus reference residual AR memory"
+  ],
+  "quality": "Full replay after removing Warning/rebased/retrospective sensor inputs, including initialization; this is an archived-flag sensitivity and not restored historical data versions.",
+  "branch_diagnostics": "Optional offline paired equal-budget windows after common history; actual future references may score/update branch replay only, never select primary policies.",
+  "outputs": "New files only; all original experiments and manuscripts retained.",
+  "planning_eligibility": "Only instruments with t>=original_ready+delay can contribute covariance to an acquisition utility. Initial states of uncommissioned instruments cannot influence actions.",
+  "authoritative_output": "results/revision/access_v2; first supplemental access exports are superseded after a staggered-model planning-eligibility audit, retained for provenance only."
+}

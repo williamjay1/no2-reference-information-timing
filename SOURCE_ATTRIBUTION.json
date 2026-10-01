@@ -1,0 +1,40 @@
+{
+  "dataset_title": "QUANT: A Three-Year, Multi-City Air Quality Dataset of Commercial Air Sensors and Reference Data for Performance Evaluation",
+  "doi": "10.5281/zenodo.10775692",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "creators_verbatim": [
+    {
+      "name": "Diez, Sebastian",
+      "affiliation": "Universidad del Desarrollo",
+      "orcid": "0000-0001-9659-0356"
+    },
+    {
+      "name": "Lacy, Stuart",
+      "affiliation": "University of York",
+      "orcid": "0000-0002-8570-7528"
+    },
+    {
+      "name": "Pete, Edwards",
+      "affiliation": "University of York",
+      "orcid": "0000-0002-1076-6793"
+    },
+    {
+      "name": "Read, Katie",
+      "affiliation": "University of York",
+      "orcid": "0000-0002-4044-455X"
+    },
+    {
+      "name": "Josefina, Urquiza",
+      "affiliation": "Universidad Tecnol\u00f3gica Nacional",
+      "orcid": "0009-0005-8910-2576"
+    }
+  ],
+  "source_record_api": "https://zenodo.org/api/records/10775692",
+  "source_paper_doi": "10.1038/s41597-024-03767-2",
+  "software_author": "Junjie Zhang",
+  "software_orcid": "0009-0004-8821-4018",
+  "software_license": "MIT",
+  "source_manifest_scope": "Original observations CC BY 4.0; author code MIT"
+}

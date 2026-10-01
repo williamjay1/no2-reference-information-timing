@@ -1,0 +1,9 @@
+delay,shared,instrument_hours,instruments
+0,True,59674,18
+24,True,59674,18
+72,True,59674,18
+168,True,59674,18
+0,False,59674,18
+24,False,59674,18
+72,False,59674,18
+168,False,59674,18

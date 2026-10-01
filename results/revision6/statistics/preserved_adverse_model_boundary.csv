@@ -1,0 +1,2 @@
+variant,delay,policy,comparator,policy_rmse,comparator_rmse,estimate,analysis_role,interpretation
+drift_high,72,aware_retained,periodic,5.214550982615557,5.107555259285288,0.10699572333026897,"prespecified model sensitivity, adverse result retained",Delivery-aware scheduling advantage is conditional on process-model assumptions

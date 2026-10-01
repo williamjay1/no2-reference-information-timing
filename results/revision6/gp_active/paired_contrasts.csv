@@ -1,0 +1,7 @@
+method,comparator,metric,difference,ci_low,ci_high,block_days,n_replicates,units,negative_favors,status
+gp_enhanced,gp_periodic,macro_instrument_rmse,-0.04823362930159103,-0.14864904028742745,0.04960729418782164,7,1000,ppb,gp_enhanced,exploratory conditional sensitivity; no confirmatory p-value
+gp_enhanced,gp_original,macro_instrument_rmse,0.0010124831849820382,-0.08810297592466118,0.09072912570169317,7,1000,ppb,gp_enhanced,exploratory conditional sensitivity; no confirmatory p-value
+gp_enhanced,gp_ar_fixed,macro_instrument_rmse,0.06308166680534644,-0.04258186246820294,0.16208885599413084,7,1000,ppb,gp_enhanced,exploratory conditional sensitivity; no confirmatory p-value
+gp_enhanced,gp_periodic,site_balanced_rmse,0.37997880180166455,0.12962809702425857,0.6295943700685143,7,1000,ppb,gp_enhanced,exploratory conditional sensitivity; no confirmatory p-value
+gp_enhanced,gp_original,site_balanced_rmse,0.4725008402199702,0.25148921158930476,0.7174743681194745,7,1000,ppb,gp_enhanced,exploratory conditional sensitivity; no confirmatory p-value
+gp_enhanced,gp_ar_fixed,site_balanced_rmse,0.48828500030761646,0.2228421697580674,0.7637297655646836,7,1000,ppb,gp_enhanced,exploratory conditional sensitivity; no confirmatory p-value

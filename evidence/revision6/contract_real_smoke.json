@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "kind": "real-fleet implementation smoke, not full-study performance inference",
+  "site": "Manchester",
+  "hours": 1680,
+  "deployment_channel_streams": 21,
+  "delay": 72,
+  "horizon": 240,
+  "runner_sha256": "c5c74d302daeaea426941d1bea93c55b3250ea81146b921f1d8630a183db5da4",
+  "records": [
+    {
+      "delay_aware": true,
+      "shared_frozen_array_parity": true,
+      "nonshared_paid_attempts": 96,
+      "nonshared_changed_paid_hours": 0,
+      "nonshared_runtime_seconds": 0.27843330000177957,
+      "exact_block_quotas": true,
+      "start_cap": true,
+      "commissioning_paid_exclusion": true
+    },
+    {
+      "delay_aware": false,
+      "shared_frozen_array_parity": true,
+      "nonshared_paid_attempts": 96,
+      "nonshared_changed_paid_hours": 0,
+      "nonshared_runtime_seconds": 0.17984250000154134,
+      "exact_block_quotas": true,
+      "start_cap": true,
+      "commissioning_paid_exclusion": true
+    }
+  ]
+}

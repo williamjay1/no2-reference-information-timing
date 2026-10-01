@@ -1,0 +1,18 @@
+# Independent read-only method audit, revision 6
+
+Observed 2026-10-01 before any subsequent controller repair. The audit did not modify either `revision6_fixed_delay.py`, `revision6_model_sensitivity.py`, or frozen controllers. A separate synthetic verification script was added.
+
+## Passed or adequately bounded
+
+- Fixed-delay comparisons retain the same per-segment `ready+168` scoring cutoff for 0/24/72/168 h, and common masks are explicit in saved streams. Full masks are separately saved for support sensitivity.
+- The expanded sixteen-candidate selection uses early Manchester only. Bootstrap selection frequencies describe conditional candidate-stream variability, not reoptimization, nested-validation uncertainty, or new-site validity. The retrospective status is explicit.
+- Exact zero-delay consistency is asserted only for unretuned aware versus original at the same H168/threshold1.25 settings. H240 retained and expanded settings are different policies and must not be claimed identical to H168 at zero delay.
+- AR(2) coefficients are fitted only on commissioning residual triples; the companion matrix is stabilized and its residual marginal variance is held at the original 0.8 commissioning-variance allocation. Coefficient covariance and process noise are retained. This examines correction on transferred AR(1) calendars; it does not optimize an AR(2) planner or identify actual electrode dynamics.
+- Pulsed process noise represents concentrated coefficient variance at fixed 168-hour boundaries, retaining cumulative variance over complete blocks. It is a state-assumption sensitivity, not empirical identification or simulation of observed true change points. The explicit future coefficient-noise adjustment is correct under identity coefficient transitions.
+- `revision6_model_sensitivity_audit.py` independently rebuilds every synthetic output from the initial prior and the complete event history whose release precedes that output. All sixteen cases (AR1/AR2 × smooth/pulsed Q × four fixed delays) match: maximum prediction discrepancy 0; maximum variance discrepancy 2.88658e−15. A second-lag-zero AR(2) matches AR(1) at all four delays, and predicted variances remain positive. This is synthetic implementation evidence, not a sensor-data result. Output: `results/revision6/model_sensitivity/independent_synthetic_audit.json`.
+
+## Important issue reported to parent for repair
+
+In the frozen original and fourth-review aware controllers, `shared_setup=False` replaces `planning_initmask` by zeros. The utility routines use that one mask for two purposes: (i) whether known commissioning observations condition both posterior paths and (ii) whether the proposed paid prefix pauses during commissioning. Actual execution always pauses paid access on the original commissioning mask, whether or not information is shared. Consequently, a non-shared planner currently credits paid candidate observations during known future commissioning hours that would not actually be requested then. This can confound interpretation of non-sharing as an information-only ablation.
+
+Recommended independent repair: retain an allocation calendar for paid-prefix pauses regardless of sharing, and separate the mask for common information. Both original and delivery-aware planner variants must receive the same correction. Keep old results unchanged and identify repaired sensitivity streams separately, with zero-delay equivalence and chronological/budget tests. If unrepaired, describe the associated planning approximation explicitly and avoid attributing the difference solely to removal of shared information. No defect was found in fixed-delay event-state updating itself.

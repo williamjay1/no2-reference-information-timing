@@ -1,0 +1,41 @@
+{
+  "stage": "exploratory fourth revision after previous evaluation results were known",
+  "delay_hours": 72,
+  "tuning": "Pre-2021 Manchester only; lowest development macro physical-instrument RMSE, ties lexicographic horizon/threshold",
+  "candidates": [
+    {
+      "horizon": 168,
+      "threshold_scale": 1.0
+    },
+    {
+      "horizon": 168,
+      "threshold_scale": 1.25
+    },
+    {
+      "horizon": 240,
+      "threshold_scale": 1.0
+    },
+    {
+      "horizon": 240,
+      "threshold_scale": 1.25
+    }
+  ],
+  "controls": "Same calibrator, 12h commitments, B48 per 672h, four starts, common catch-up and shared commissioning",
+  "objective": "Mean predicted variance reduction over H future predictions, conditional on pending requests and 72h arrivals; three strictly historical context analogs or current-context fallback",
+  "planner_assumptions": "Attempted references assumed usable; past device validity known; future reference/device availability never consulted; future external commissioning calendar known",
+  "score_support": "Original all-delay common supplied masks, ready+168; 18 instruments and 59674 instrument-hours",
+  "uncertainty": {
+    "days": [
+      7,
+      14
+    ],
+    "replicates": [
+      1000,
+      300
+    ],
+    "seed_rule": "20261001+days",
+    "scope": "conditional realized errors, same sites and calendar quarters, no policy retraining"
+  },
+  "limits": "No new untouched dataset; exploratory extension. Longer horizon and threshold are both tuned only in development. No electrode-identifiability claim.",
+  "old_controller_sha256": "551cca4302db25fcfe57a72ed6ce0bedf8a8be277575debe9c69b44cb842c327"
+}

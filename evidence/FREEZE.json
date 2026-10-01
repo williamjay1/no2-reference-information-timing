@@ -1,0 +1,98 @@
+{
+  "stage": "future-period experiment freeze; not preregistration",
+  "frozen_utc": "2026-09-30T03:10:57.447957+00:00",
+  "sites": [
+    "Manchester",
+    "London",
+    "York"
+  ],
+  "budgets": [
+    12,
+    24,
+    48
+  ],
+  "random_seeds": [
+    1,
+    2,
+    3
+  ],
+  "calibrator": {
+    "q_scale": 0.001,
+    "use_ar": true,
+    "weather": true,
+    "ar_share": 0.8,
+    "guard_width": 8.0
+  },
+  "periodic_phase": 0.0,
+  "policies": {
+    "risk": {
+      "horizon": 24,
+      "threshold_scale": 1.25,
+      "fixed_length": 12
+    },
+    "information_gain": {
+      "horizon": 168,
+      "threshold_scale": 1.0,
+      "fixed_length": 12
+    },
+    "uncertainty": {
+      "horizon": 168,
+      "threshold_scale": 1.0,
+      "fixed_length": 12
+    },
+    "risk_independent": {
+      "horizon": 168,
+      "threshold_scale": 1.25,
+      "fixed_length": 12
+    },
+    "risk_fixed": {
+      "horizon": 168,
+      "threshold_scale": 1.25,
+      "fixed_length": 12
+    },
+    "window_uncertainty": {
+      "horizon": 48,
+      "threshold_scale": 1.0,
+      "fixed_length": 24
+    }
+  },
+  "baseline": {
+    "gp_length_scale": 2.0,
+    "gp_noise": 0.5,
+    "forgetting": 0.995,
+    "bias_alpha": 0.05,
+    "max_pairs": 512
+  },
+  "design": {
+    "development_end_exclusive": "2021-01-01",
+    "test_start_inclusive": "2021-01-01",
+    "initial_hours": 336,
+    "minimum_initial_pairs": 72,
+    "minimum_scored_pairs": 672,
+    "block_hours": 672,
+    "max_starts": 4,
+    "primary": "mean physical-instrument RMSE; simultaneous channels average squared losses per instrument-hour; replacement segments pooled",
+    "scoring": "same target-paired post-initialization hours for every method; prediction before reference update; output lower bound zero",
+    "cost": "shared site reference attempt hours; initialization union separately charged; known exogenous setup calendar shared with every ready instrument; unknown future target availability",
+    "uncertainty": "7-day quarter-stratified synchronized site calendar blocks 1000 repetitions; 14/28-day sensitivity300 each; conditional realized error streams",
+    "independent_reference": "Manchester QC0 duplicate only for evaluation of frozen predictions; never fit or tune",
+    "limitations": "continuous colocation replay; no claimed prospective relocation, travel-cost saving, concentration standard compliance, geographic population inference or novel Kalman/A-optimal principle"
+  },
+  "decisions": "selected on Manchester pre2021 only: calibration guard/drift boundary grid, immediate baseline grid, site-fleet acquisition grid; corrected independent reference availability before freeze",
+  "input_sha256": {
+    "scripts\\run_main.py": "05ce85f3e1c2b23aec72ab2ec6eae384808674a57bb285542ebf0cfc2b9a57b0",
+    "scripts\\calibration_engine.py": "513dbd60207ef98ad533c8e4829ce9f96abd96786f7dcb95b5ed679102d92f37",
+    "scripts\\acquisition_controller.py": "1184453aac8562d54df83e229b5ab79f497bdbcf2b8fce2e6942ef0e0f8a0b3f",
+    "scripts\\site_data.py": "d24bd0cb8d80e8751e5cdeed18ed494fe8d02f4772d5ddd994d6ca94a22be904",
+    "scripts\\study_data.py": "2e93d3f2a4569b11da921171754fbac435bdbded94c1898d2979eb98337ebdcf",
+    "scripts\\fixed_schedules.py": "e383f435738e436fedd1ede235a834a9f775e146adf947af4651936136c11efd",
+    "scripts\\competitive_stream_baselines.py": "d45392b5072d3822b028930766634aa1adfcb2dee5d3ca532a0938634a086584",
+    "scripts\\baseline_models.py": "32675fdb1182599164ef9698a0d416e59f931c6df0674c7502c5eacb85043d3c",
+    "datasets\\no2_hourly_oob.parquet": "ca8aaf7a4456049bbd707acab90010ccdf15d540578d73bdeadc57e0adcc8ac5",
+    "datasets\\reference_no2_ratified.parquet": "cac0d4997041adef1c2f6e83cf8c8ccf74fe17d2b3a45646fcdbda772c601a03",
+    "datasets\\duplicate_reference_no2.parquet": "1db3848c39d707552c13f4da3afed58b71700d679c37e72bc64b9d777a127ead",
+    "results\\development_policy_summary.csv": "4917a62f217cb2e621084c4e59450283ce5d53a942d671c2bd790cc1be370394",
+    "results\\development_drift_boundary.csv": "4cc0d265999645871949607d25149f5d6a050fad8d7966fb6832e7d1d5713559",
+    "results\\stream_baseline_dev_grid.csv": "559bb93e583eacc33fbe8efa1369a9c7b0c03bcd29678e8143d68c564826ea33"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "record_id": "10775692",
+  "version": "v1",
+  "record_doi": "10.5281/zenodo.10775692",
+  "license": {
+    "id": "cc-by-4.0"
+  },
+  "downloaded_at_utc": "20260930T015809Z",
+  "metadata_path": "F:\\AcademicData\\SensorsWindowCalibration\\raw\\QUANT_v1_zenodo_10775692_metadata_20260930T015809Z.json",
+  "files": [
+    {
+      "path": "F:\\AcademicData\\SensorsWindowCalibration\\raw\\QUANT_DuplicateRef_hourly.csv",
+      "bytes": 1434199,
+      "md5": "95a7adc5e12f6b67f92baadb9a18cb2a",
+      "source_url": "https://zenodo.org/api/records/10775692/files/QUANT_DuplicateRef_hourly.csv/content",
+      "reused": false
+    },
+    {
+      "path": "F:\\AcademicData\\SensorsWindowCalibration\\raw\\QUANT_SensorSystems_hourly.csv",
+      "bytes": 476864853,
+      "md5": "7f8665948c58014f4dde1122d5f438e6",
+      "source_url": "https://zenodo.org/api/records/10775692/files/QUANT_SensorSystems_hourly.csv/content",
+      "reused": false
+    },
+    {
+      "path": "F:\\AcademicData\\SensorsWindowCalibration\\raw\\QUANT_Reference_hourly.csv",
+      "bytes": 26658532,
+      "md5": "51df9e9632f21e5a8fcbed11662cab45",
+      "source_url": "https://zenodo.org/api/records/10775692/files/QUANT_Reference_hourly.csv/content",
+      "reused": false
+    }
+  ]
+}

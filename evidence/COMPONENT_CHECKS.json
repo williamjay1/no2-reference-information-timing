@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-09-30T03:18:11.129625+00:00",
+  "stage": "Post-freeze code audit supplement; primary error metrics not yet inspected. Not a new tuning stage.",
+  "reason": "Separately tuned acquisition variants differ in horizon; matched checks isolate planner and duration choices. Weather/guard ablations evaluate retained calibrated-model components.",
+  "budget": 48,
+  "methods": [
+    "guard_removed",
+    "weather_removed",
+    "risk_independent_matched",
+    "risk_fixed_matched"
+  ],
+  "unchanged": "Primary protocol, selected hyperparameters, eligibility, query budgets and scoring rules remain fixed; no outcomes used for selecting ablations.",
+  "source_sha256": "7fa2562a23410f723f20492ef31953edfb4bbbfc94b03a49cb390c4dd2a916cf"
+}

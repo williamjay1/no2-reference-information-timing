@@ -1,0 +1,121 @@
+site,delay,shared,policy,paid_attempts,forced_paid_attempts,forced_paid_fraction,starts,candidate_score_evaluations,positive_candidate_score_evaluations,all_finite_candidate_scores_zero,candidate_score_max,informative_acquisition,interpretation
+Manchester,0,True,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,0,True,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,0,True,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,0,True,original,807,207.0,0.25650557620817843,59,9457,9457,False,0.825255164454691,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,True,original,450,102.0,0.22666666666666666,35,4922,4922,False,0.9088947307313832,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,True,original,912,132.0,0.14473684210526316,75,11738,11738,False,1.6084943184877751,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,0,True,aware_unretuned,807,207.0,0.25650557620817843,59,9457,9457,False,0.825255164454691,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,True,aware_unretuned,450,102.0,0.22666666666666666,35,4922,4922,False,0.9088947307313832,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,True,aware_unretuned,912,132.0,0.14473684210526316,75,11738,11738,False,1.6084943184877751,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,0,True,aware_retained,807,159.0,0.1970260223048327,62,9048,9048,False,0.7723643095840448,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,True,aware_retained,450,66.0,0.14666666666666667,37,4947,4947,False,0.6532711101841565,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,True,aware_retained,912,84.0,0.09210526315789473,76,11703,11703,False,0.8153732074463083,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,0,True,aware_expanded,807,171.0,0.21189591078066913,61,8978,8978,False,0.8086734194616814,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,True,aware_expanded,450,78.0,0.17333333333333334,37,4999,4999,False,1.120315977740596,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,True,aware_expanded,912,132.0,0.14473684210526316,73,11724,11724,False,1.6033983105502834,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,True,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,24,True,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,24,True,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,24,True,original,807,72.0,0.08921933085501858,66,8905,8905,False,1.3306662621064111,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,True,original,450,24.0,0.05333333333333334,37,5106,5106,False,1.0387401799893103,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,True,original,912,36.0,0.039473684210526314,75,10759,10759,False,2.059643104289648,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,True,aware_unretuned,807,183.0,0.22676579925650558,61,8920,8920,False,0.6215464032394868,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,True,aware_unretuned,450,60.0,0.13333333333333333,36,5190,5190,False,0.79468427820485,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,True,aware_unretuned,912,156.0,0.17105263157894737,73,11560,11560,False,1.329087310794131,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,True,aware_retained,807,159.0,0.1970260223048327,62,8962,8962,False,0.677969362644655,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,True,aware_retained,450,66.0,0.14666666666666667,37,5001,5001,False,0.6934546329434892,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,True,aware_retained,912,48.0,0.05263157894736842,76,11501,11501,False,0.7036588058100756,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,True,aware_expanded,807,147.0,0.1821561338289963,63,9144,9144,False,0.6295201831780114,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,True,aware_expanded,450,90.0,0.2,36,4846,4846,False,0.7629897012805323,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,True,aware_expanded,912,156.0,0.17105263157894737,71,11687,11687,False,1.380131159354825,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,True,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,72,True,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,72,True,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,72,True,original,807,96.0,0.11895910780669144,64,6949,6949,False,1.363386777946684,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,True,original,450,12.0,0.02666666666666667,38,4601,4601,False,0.8974445724367465,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,True,original,912,108.0,0.11842105263157894,70,9644,9644,False,2.106592586657655,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,True,aware_unretuned,807,159.0,0.1970260223048327,63,8882,8882,False,0.41342858817953926,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,True,aware_unretuned,450,84.0,0.18666666666666668,36,4620,4620,False,0.5103470557852089,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,True,aware_unretuned,912,96.0,0.10526315789473684,75,11462,11462,False,0.8692899771061149,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,True,aware_retained,807,159.0,0.1970260223048327,63,8829,8829,False,0.5077388443148557,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,True,aware_retained,450,90.0,0.2,36,4716,4716,False,0.6270494749954648,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,True,aware_retained,912,84.0,0.09210526315789473,76,11625,11625,False,0.5300494255769733,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,True,aware_expanded,807,171.0,0.21189591078066913,63,9097,9097,False,0.44006011717090926,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,True,aware_expanded,450,72.0,0.16,36,4652,4652,False,0.4413961991757394,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,True,aware_expanded,912,96.0,0.10526315789473684,75,11543,11543,False,0.9611919787273345,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,168,True,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,168,True,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,168,True,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,168,True,original,807,84.0,0.10408921933085502,65,6544,6544,False,0.5386109388030217,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,168,True,original,450,30.0,0.06666666666666667,37,4810,4810,False,1.0992875396922812,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,168,True,original,912,60.0,0.06578947368421052,73,10100,10100,False,3.346773334082324,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,168,True,aware_unretuned,807,807.0,1.0,17,9467,0,True,0.0,False,Zero rollout benefit and quota fallback: not evidence of successful value-based acquisition
+London,168,True,aware_unretuned,450,450.0,1.0,10,5306,0,True,0.0,False,Zero rollout benefit and quota fallback: not evidence of successful value-based acquisition
+York,168,True,aware_unretuned,912,912.0,1.0,19,11673,0,True,0.0,False,Zero rollout benefit and quota fallback: not evidence of successful value-based acquisition
+Manchester,168,True,aware_retained,807,87.0,0.10780669144981413,66,9182,9182,False,0.2148424264036536,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,168,True,aware_retained,450,72.0,0.16,35,5063,5063,False,0.2624585783561376,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,168,True,aware_retained,912,108.0,0.11842105263157894,75,11131,11131,False,0.43919399830098377,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,168,True,aware_expanded,807,111.0,0.137546468401487,65,8624,8624,False,0.0887473614778569,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,168,True,aware_expanded,450,42.0,0.09333333333333334,37,4838,4838,False,0.09486963452513776,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,168,True,aware_expanded,912,60.0,0.06578947368421052,76,10321,10321,False,0.08741029321049187,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,0,False,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,0,False,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,0,False,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,0,False,original,807,207.0,0.25650557620817843,60,9459,9459,False,0.8448881895424833,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,False,original,450,102.0,0.22666666666666666,35,4922,4922,False,0.9088947307313832,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,False,original,912,132.0,0.14473684210526316,75,11738,11738,False,1.6084943184877751,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,0,False,aware_unretuned,807,207.0,0.25650557620817843,60,9459,9459,False,0.8448881895424833,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,False,aware_unretuned,450,102.0,0.22666666666666666,35,4922,4922,False,0.9088947307313832,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,False,aware_unretuned,912,132.0,0.14473684210526316,75,11738,11738,False,1.6084943184877751,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,0,False,aware_retained,807,159.0,0.1970260223048327,63,9053,9053,False,0.7717410145363583,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,False,aware_retained,450,66.0,0.14666666666666667,37,4947,4947,False,0.6532711101841565,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,False,aware_retained,912,84.0,0.09210526315789473,76,11703,11703,False,0.8153732074463083,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,0,False,aware_expanded,807,195.0,0.241635687732342,61,8980,8980,False,0.8203355696589525,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,0,False,aware_expanded,450,78.0,0.17333333333333334,37,4999,4999,False,1.120315977740596,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,0,False,aware_expanded,912,132.0,0.14473684210526316,73,11724,11724,False,1.6033983105502834,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,False,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,24,False,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,24,False,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,24,False,original,807,123.0,0.1524163568773234,64,9035,9035,False,0.8735289595136778,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,False,original,450,24.0,0.05333333333333334,37,5106,5106,False,1.0387401799893103,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,False,original,912,36.0,0.039473684210526314,75,10759,10759,False,2.059643104289648,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,False,aware_unretuned,807,195.0,0.241635687732342,61,8967,8967,False,0.5458526680182804,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,False,aware_unretuned,450,60.0,0.13333333333333333,36,5190,5190,False,0.79468427820485,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,False,aware_unretuned,912,156.0,0.17105263157894737,73,11560,11560,False,1.329087310794131,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,False,aware_retained,807,159.0,0.1970260223048327,63,9107,9107,False,0.5397835226350003,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,False,aware_retained,450,66.0,0.14666666666666667,37,5001,5001,False,0.6934546329434892,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,False,aware_retained,912,48.0,0.05263157894736842,76,11501,11501,False,0.7036588058100756,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,24,False,aware_expanded,807,159.0,0.1970260223048327,63,9219,9219,False,0.518701931867977,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,24,False,aware_expanded,450,90.0,0.2,36,4846,4846,False,0.7629897012805323,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,24,False,aware_expanded,912,156.0,0.17105263157894737,71,11687,11687,False,1.380131159354825,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,False,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,72,False,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,72,False,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,72,False,original,807,111.0,0.137546468401487,63,7046,7046,False,1.2484534465958725,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,False,original,450,12.0,0.02666666666666667,38,4601,4601,False,0.8974445724367465,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,False,original,912,108.0,0.11842105263157894,70,9644,9644,False,2.106592586657655,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,False,aware_unretuned,807,195.0,0.241635687732342,61,8974,8974,False,0.3853855684514518,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,False,aware_unretuned,450,84.0,0.18666666666666668,36,4620,4620,False,0.5103470557852089,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,False,aware_unretuned,912,96.0,0.10526315789473684,75,11462,11462,False,0.8692899771061149,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,False,aware_retained,807,195.0,0.241635687732342,60,8844,8844,False,0.3895747739787863,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,False,aware_retained,450,90.0,0.2,36,4716,4716,False,0.6270494749954648,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,False,aware_retained,912,84.0,0.09210526315789473,76,11625,11625,False,0.5300494255769733,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,72,False,aware_expanded,807,207.0,0.25650557620817843,60,9077,9077,False,0.423787307624412,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,72,False,aware_expanded,450,72.0,0.16,36,4652,4652,False,0.4413961991757394,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,72,False,aware_expanded,912,96.0,0.10526315789473684,75,11543,11543,False,0.9611919787273345,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,168,False,periodic,807,,,68,0,0,False,,,Not applicable to periodic calendar
+London,168,False,periodic,450,,,40,0,0,False,,,Not applicable to periodic calendar
+York,168,False,periodic,912,,,76,0,0,False,,,Not applicable to periodic calendar
+Manchester,168,False,original,807,84.0,0.10408921933085502,65,7064,7064,False,1.345397429764784,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,168,False,original,450,30.0,0.06666666666666667,37,4810,4810,False,1.0992875396922812,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,168,False,original,912,60.0,0.06578947368421052,73,10100,10100,False,3.346773334082324,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,168,False,aware_unretuned,807,807.0,1.0,17,9467,0,True,0.0,False,Zero rollout benefit and quota fallback: not evidence of successful value-based acquisition
+London,168,False,aware_unretuned,450,450.0,1.0,10,5306,0,True,0.0,False,Zero rollout benefit and quota fallback: not evidence of successful value-based acquisition
+York,168,False,aware_unretuned,912,912.0,1.0,19,11673,0,True,0.0,False,Zero rollout benefit and quota fallback: not evidence of successful value-based acquisition
+Manchester,168,False,aware_retained,807,147.0,0.1821561338289963,62,9197,9197,False,0.2286470220766937,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,168,False,aware_retained,450,72.0,0.16,35,5063,5063,False,0.2624585783561376,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,168,False,aware_retained,912,108.0,0.11842105263157894,75,11131,11131,False,0.43919399830098377,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+Manchester,168,False,aware_expanded,807,183.0,0.22676579925650558,60,8650,8650,False,0.1009399355160926,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+London,168,False,aware_expanded,450,42.0,0.09333333333333334,37,4838,4838,False,0.09486963452513776,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted
+York,168,False,aware_expanded,912,60.0,0.06578947368421052,76,10321,10321,False,0.08741029321049187,True,Mixture of positive-score decisions and quota fallback; fraction is attempt-weighted

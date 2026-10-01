@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+cache/
+temp/
+*.zip
+*.docx
+*.tex
+*.cls
+*.sty
+*.bst
+datasets/*.parquet
+results/**/*.npz
+results/**/*.png
+results/**/*.pdf
+results/**/*.svg

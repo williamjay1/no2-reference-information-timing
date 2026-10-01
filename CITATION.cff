@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this software and credit the QUANT data source when reusing its derivatives."
+type: software
+title: "NO2 Reference Information Timing: Calibration and Reproduction Code"
+version: 0.6.0
+repository-code: "https://github.com/williamjay1/no2-reference-information-timing"
+date-released: 2026-10-01
+authors:
+  - family-names: Zhang
+    given-names: Junjie
+    orcid: "https://orcid.org/0009-0004-8821-4018"
+license: MIT
+abstract: "Reproducible retrospective calibration and reference-service experiments on public QUANT NO2 data, including delayed-information planning and causally ordered event-specific delivery."
+references:
+  - type: data
+    title: "QUANT: A Three-Year, Multi-City Air Quality Dataset of Commercial Air Sensors and Reference Data for Performance Evaluation"
+    doi: 10.5281/zenodo.10775692
+    year: 2024
+    authors:
+      - family-names: Diez
+        given-names: Sebastian
+      - family-names: Lacy
+        given-names: Stuart
+      - family-names: Edwards
+        given-names: Peter
+      - family-names: Read
+        given-names: Katie
+      - family-names: Urquiza
+        given-names: Josefina

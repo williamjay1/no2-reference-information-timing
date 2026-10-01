@@ -1,0 +1,10 @@
+seed,policy,comparator,difference,description
+610001,original,periodic,0.05630543510298569,Conditional point difference under one paired simulated delivery draw; not a CI
+610001,aware_retained,periodic,-0.6347958352247094,Conditional point difference under one paired simulated delivery draw; not a CI
+610001,aware_retained,original,-0.6911012703276951,Conditional point difference; not a CI
+610002,original,periodic,0.1218067163057901,Conditional point difference under one paired simulated delivery draw; not a CI
+610002,aware_retained,periodic,-0.605204816671109,Conditional point difference under one paired simulated delivery draw; not a CI
+610002,aware_retained,original,-0.7270115329768991,Conditional point difference; not a CI
+610003,original,periodic,0.1907626213480258,Conditional point difference under one paired simulated delivery draw; not a CI
+610003,aware_retained,periodic,-0.5619697815090001,Conditional point difference under one paired simulated delivery draw; not a CI
+610003,aware_retained,original,-0.7527324028570259,Conditional point difference; not a CI
